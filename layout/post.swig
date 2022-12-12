@@ -5,6 +5,8 @@
 
 {% block class %}post posts-expand{% endblock %}
 
+{{ readingTime(page.content) }}
+
 {% block content %}
 
   {{ partial('_macro/post.swig', {post: page}) }}

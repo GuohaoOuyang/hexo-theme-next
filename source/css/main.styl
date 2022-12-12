@@ -45,3 +45,10 @@ for $inject_mixin in hexo-config('injects.mixin')
 // --------------------------------------------------
 for $inject_style in hexo-config('injects.style')
   @import $inject_style;
+
+.post-block {         
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px rgba(110,110,110,0.2)
+}
